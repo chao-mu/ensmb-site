@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+a, a:visited, a:hover {
+    color: #007bff;
+}
+
 .intro p {
     font-family: Verdana, Geneva, sans-serif !important;
     font-size: 24px;
@@ -67,3 +71,4 @@ body {
     text-decoration: underline;
     color: white;
 }
+
