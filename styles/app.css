@@ -7,17 +7,24 @@ a, a:visited, a:hover {
     color: #007bff;
 }
 
-.intro p {
+p {
     font-family: Verdana, Geneva, sans-serif !important;
-    font-size: 24px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 350;
-    line-height: 27px;
 }
 
-.navbar-brand img {
-    height: 50px;
+h1,h2,h3,h4,h5 {
+    font-family: dayposterblackregular, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+}
+
+/* Home and mailing list */
+
+.home .intro p {
+    font-size: 24px;
+    font-weight: 350;
+    line-height: 27px;
 }
 
 .home .cover-image {
@@ -45,6 +52,19 @@ a, a:visited, a:hover {
     font-variant: normal;
 }
 
+/* Videos and booking */
+
+#videos, #booking {
+    margin-top: 30px;
+}
+
+#booking p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* Navigation bar */
+
 .navbar {
     text-transform: uppercase;
     font-size: 1.3rem;
@@ -56,6 +76,10 @@ a, a:visited, a:hover {
 .navbar-brand {
     font-size: 1.9rem;
     padding: 0;
+}
+
+.navbar-brand img {
+    height: 50px;
 }
 
 .navbar-nav li {
@@ -72,3 +96,18 @@ a, a:visited, a:hover {
     color: white;
 }
 
+/* https://embedresponsively.com/ */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%; 
+}
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
