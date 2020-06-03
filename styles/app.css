@@ -47,9 +47,54 @@ h1,h2,h3,h4,h5 {
     width: 100%;
     text-align: center;
     font-family: dayposterblackregular, sans-serif;
-    font-size: 54px;
     font-style: normal;
     font-variant: normal;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+.home .cover-image .band-name div {
+    display: inline-block;
+}
+
+@media (min-width: 320px) {
+    .home .cover-image .band-name {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .caption h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-shadow: .1rem .1rem .8rem black;
+    }
+}
+
+@media (min-width: 768px) {
+    .home .cover-image .band-name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .caption h3 {
+        font-size: 3.0rem;
+        font-weight: 600;
+        text-shadow: .1rem .1rem .8rem black;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .home .cover-image .band-name {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .caption h3 {
+        font-size: 4.0rem;
+        font-weight: 600;
+        text-shadow: .1rem .1rem .8rem black;
+    }
 }
 
 /* Videos and booking */
